@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %} About - MyToDo {% endblock title %}
+{% block body %}
+    <!-- Main About Section -->
+    <div class="container mt-5">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h2 class="card-title">About This ToDo App</h2>
+                <p class="card-text">
+                    This ToDo app is a simple task manager built using <strong>Flask</strong>, <strong>SQLAlchemy</strong>, and <strong>Bootstrap</strong>.
+                </p>
+                <ul>
+                    <li>Create, update, and delete ToDos</li>
+                    <li>View timestamps for each task</li>
+                    <li>Search your tasks quickly</li>
+                </ul>
+                <p>Made with ❤ by [Prathmesh,Kalpak]</p>
+            </div>
+        </div>
+    </div>
+
+    {% endblock body %}
